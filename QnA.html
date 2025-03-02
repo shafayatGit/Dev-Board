@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="poppins">
+    <header>
+        <nav class="poppins max-w-screen-xl mx-auto bg-[#F4F7FF] p-10 rounded-md">
+            <div class="flex justify-between">
+                <div class="flex items-center">
+                    <img class="w-12" src="assets/logo.png" alt="">
+                    <h1 class="text-[#00303C] text-4xl font-bold"><span class="font-light">Dev</span>Board</h1>
+                </div>
+                <div>
+                    <button id="btn_back"
+                        class="bg-[#3752FD] text-white text-base font-medium px-3 py-2 rounded-lg">Back to desk</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="max-w-screen-xl mx-auto">
+        <h1 class="text-[#00303C] text-2xl font-bold text-center mb-9">Blogs</h1>
+        <!-- 1st Qns -->
+        <div class="mb-7">
+            <h1 class="text-[#00303C] text-xl font-bold mb-5">Question-1: What are the different ways to select an element in the DOM?</h1>
+            <p class="text-gray-500 text-xl font-normal">There are many ways to select an element in the DOM. Such as: <br> 1.document.getElementById <br> 2.document.getElementsByClassName <br> 3.document.getElementsByTagName <br> 4.document.querySelectorAll <br> 5.document.querySelector </p>
+        </div>
+        <!-- 2nd Qns -->
+        <div class="mb-7">
+            <h1 class="text-[#00303C] text-xl font-bold mb-5">Question-2: What is the difference between innerHTML, innerText, and textContent ?</h1>
+            <p class="text-gray-500 text-xl font-normal">1. innerHTML shows the texts with the HTML Tags. <br> 2. innerText shows only the texts. <br> 3. textContent shows all the things including the hidden text.</p>
+        </div>
+        <!-- 3rd Qns -->
+        <div class="mb-7">
+            <h1 class="text-[#00303C] text-xl font-bold mb-5">Question-3: What is event delegation in the DOM?</h1>
+            <p class="text-gray-500 text-xl font-normal">Event Delegation is a technique where a single event listener is added to a parent element to handle events for multiple child elements using event bubbling. This improves performance and works for dynamically added elements.</p>
+        </div>
+        <!-- 4th Qns -->
+        <div class="mb-7">
+            <h1 class="text-[#00303C] text-xl font-bold mb-5">Question-4: What is event bubbling in the DOM?</h1>
+            <p class="text-gray-500 text-xl font-normal">Event Bubbling is a process in the DOM where an event starts from the target element and propagates up to its parent elements. This allows parent elements to handle events triggered by their children.</p>
+        </div>
+        <!-- 5th Qns -->
+        <div class="mb-7">
+            <h1 class="text-[#00303C] text-xl font-bold mb-5">Question-5: How do you create, add, and remove elements using JavaScript?</h1>
+            <p class="text-gray-500 text-xl font-normal">1. Create by using document.createElement('elementTags'). <br> 2. Add by using document.body.appendClild(child). <br> 3. Remove by using parent.removeChild(child)</p>
+        </div>
+    </main>
+
+
+    <script src="JS/btn_back.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+document.getElementById("clear_btn").addEventListener("click",
+    function(){
+        document.getElementById("id_activity").innerHTML = '';
+    }
+)
